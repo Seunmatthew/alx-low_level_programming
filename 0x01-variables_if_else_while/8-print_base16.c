@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,21 +7,20 @@
  */
 int main(void)
 {
+	int d = 48;
 	char c = 'a';
-	char C = 'A';
 
-	while (c <= 'z')
+	while (d < 58)
+	{
+		putchar(d);
+		d++;
+	}
+	while (c <= 'f')
 	{
 		putchar(c);
 		c++;
-	}
-	while (C <= 'Z')
-	{
-		putchar(C);
-		C++;
 	}
 	putchar('\n');
 
 	return (0);
 }
-
