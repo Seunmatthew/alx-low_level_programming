@@ -6,12 +6,10 @@
  *	return - (0) if it's a digit and (1) if its not a digit
  *
  */
-int main()
-	int ch;
-	for(ch =48 && ch<=57)
-	if(isdigit(ch))
-		_putchar("number is digit");
+int _isdigit(int c)
+{
+	if((c => 48) && (c <= 57))
+		return(1);
 	else
-		_putchar("number not digit");
 		return(0);
 }
