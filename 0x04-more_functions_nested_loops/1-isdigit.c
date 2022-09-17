@@ -3,6 +3,7 @@
 
 /**
  *	main - function to check digit
+ *
  *	return - (0) if it's a digit and (1) if its not a digit
  *
  */
