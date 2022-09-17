@@ -6,16 +6,17 @@
  * Return: Always 0.
  */
 
-void print_line(int n)
+void print_line(void);
 {
 	int lo;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for(lo = 1; lo <= n; lo++)
+		for (lo = 1; lo <= n; lo++)
 		{
 			_putchar('-');
 		}
