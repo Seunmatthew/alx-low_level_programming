@@ -10,6 +10,6 @@
 {
 	int kont;
 	for (kont = 0; *s != '\0'; ++s)
-		count ++;
-	return (count);
+		kount ++;
+	return (kount);
 }
