@@ -3,8 +3,8 @@
 /**
  * Return lens- Return length of string
  *
- *@a: pointer argument 1
- *@b: pointer argument 2
+ *@strlen: lenght of a character
+ *@s: argument for character lenght
  */
 int _strlen(char *s)
 {
