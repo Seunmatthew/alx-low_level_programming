@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the values pointed to by arguments
+ * _puts - print a string
  *
  *@str: printing a string
  *
